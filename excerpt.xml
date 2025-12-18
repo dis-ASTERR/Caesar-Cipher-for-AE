@@ -1,0 +1,6 @@
+<Effect matchname="Pseudo/CaesarCipher_v1.0" name="$$$/AE/Preset/CaesarCipher_v1.0=Caesar Cipher">
+    <Slider name="$$$/AE/Preset/FramesPerIteration=Frames Per Iteration" default="1" valid_min="1" valid_max="600" slider_min="1" slider_max="24" precision="1"/>
+    <Checkbox name="$$$/AE/Preset/SkipOG=Skip Original Text" checked="true"/>
+    <Checkbox name="$$$/AE/Preset/Random=Randomized Offset" checked="false"/>
+    <Layer name="$$$/AE/Preset/SourceText=Source Text" default_self="false"/>
+  </Effect>

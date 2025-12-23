@@ -1,3 +1,4 @@
+//psuedo effect controls 
 var x = Math.round(effect("Caesar Cipher")("Frames Per Iteration"));
 const sourceText = String(effect("Caesar Cipher")("Source Text"));
 var skipOG = effect("Caesar Cipher")("Skip Original Text");
@@ -5,7 +6,7 @@ var isRandom = effect("Caesar Cipher")("Randomized Offset");
 
 //initialize internal variables
 const fps = 1/(thisComp.frameDuration*x); //x-modified fps
-var i;
+var i; //increment 
 var output = ""; // 'finished' text 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
